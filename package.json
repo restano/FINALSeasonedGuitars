@@ -1,0 +1,12 @@
+{
+  "name": "finalseasonedguitars",
+  "version": "1.0.0",
+  "description": "Final para Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "Alberto Restano",
+  "license": "ISC"
+}

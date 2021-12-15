@@ -1,0 +1,33 @@
+/*------------RESET------------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*------------RESET------------*/
+.navbar-nav {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.container-fluid {
+  background-color: #3e6398;
+}
+
+.navbar {
+  font-family: "Lobster", cursive;
+}
+
+.navbar-collapse {
+  background-color: 0, 0, 0, 0.335;
+}
+
+.nav-link {
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: color 0.7ms ease;
+  color: #e28a28 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
