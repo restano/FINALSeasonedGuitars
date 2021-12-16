@@ -1,3 +1,60 @@
 @import "variables";
 @import "global";
 @import "navbar";
+
+
+.containerCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+
+
+.card {
+    background: linear-gradient(#3e6398, white);
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card:hover {
+    background: linear-gradient(#e28a28, #3e6398);
+    color: white;
+    transform: scale(1.04);
+    transition: all 0.5s ease;
+}
+
+.cardImageContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardName {
+    font-family: Lobster, cursive;
+    letter-spacing: 3px;
+    padding: 1rem;
+    color: white;
+}
+
+.cardText {
+    font-family: Lobster two, cursive;
+    letter-spacing: 3px;
+    padding: 1rem;
+}
+
+.cardImage {
+    width: 200px;
+    height: 150px;
+    margin: 15px 15px;
+    border-radius: 15px;
+}
