@@ -3,7 +3,41 @@
 @import "navbar";
 @import "footer";
 
+/*------------body------------*/
+body {
+    background-image: linear-gradient($color_primario, #000d1f);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
 
+/*------------body------------*/
+
+/*------------Títulos------------*/
+.pageTitle {
+    font-family: Lobster, cursive;
+    font-size: 40px;
+}
+
+.pageTitle {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.335);
+    color: blanchedalmond;
+}
+
+.pageDescription {
+    text-align: center;
+    font-family: "Lobster", cursive;
+    background-color: rgba(0, 0, 0, 0.335);
+    color: rgb(219, 196, 161);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/*------------Títulos------------*/
 .containerCards {
     display: flex;
     justify-content: center;
@@ -16,7 +50,7 @@
 }
 
 .card {
-    background: linear-gradient(#3e6398, white);
+    background: linear-gradient(#000d1f, rgb(223, 212, 212));
     width: 270px;
     height: 400px;
     margin: 10px;
@@ -40,7 +74,7 @@
     font-family: Lobster, cursive;
     letter-spacing: 3px;
     padding: 1rem;
-    color: white;
+    color: #000d1f;
 }
 
 .cardText {
