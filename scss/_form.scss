@@ -1,35 +1,42 @@
 .contactInfo {
     position: relative;
     min-height: 100vh;
-    padding: 50px 100px;
+    padding: 50px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: lightgoldenrodyellow;
 
-    .contactInfoContent {
+    .contacInfoContent {
         max-width: 800px;
         text-align: center;
 
         h2 {
             font-size: 36px;
             font-weight: 500;
-            color: #fff;
+            color: black;
         }
 
         p {
+
             font-weight: 300;
-            color: #fff;
+            color: black;
+
         }
     }
-
 }
 
-.contactInfoContainer {
+.contacInfoContainter {
+
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 
+    .contactInfoContainerBox {
+        width: 50%;
+        display: flex;
+    }
 }
