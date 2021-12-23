@@ -1,42 +1,54 @@
-.contactInfo {
-    position: relative;
-    min-height: 100vh;
-    padding: 50px 10px;
+.contactContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: lightgoldenrodyellow;
-
-    .contacInfoContent {
-        max-width: 800px;
-        text-align: center;
-
-        h2 {
-            font-size: 36px;
-            font-weight: 500;
-            color: black;
-        }
-
-        p {
-
-            font-weight: 300;
-            color: black;
-
-        }
-    }
 }
 
-.contacInfoContainter {
-
-    width: 100%;
-    display: flex;
+.contact-form {
+    font-family: lobster two, cursive;
+    font-size: 1.2rem;
+    overflow: hidden;
+    width: 85%;
+    max-width: 600px;
+    background: grey;
+    position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
 
-    .contactInfoContainerBox {
-        width: 50%;
-        display: flex;
+}
+
+.txtb {
+    border: 1px solid black;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+
+    label {
+        display: block;
+        text-align: left;
+        color: blanchedalmond;
     }
+
+    input,
+    textarea {
+
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        margin-top: 6px;
+
+    }
+
+}
+
+.form-btn {
+    display: inline-block;
+    background: red;
+    width: 50%;
+    padding: 14px 0;
+    margin-top: 8px;
 }

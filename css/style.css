@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  resize: none !important;
 }
 
 /*------------RESET------------*/
@@ -90,40 +91,53 @@ a:hover i {
   font-family: "lobster", cursive;
 }
 
-.contactInfo {
-  position: relative;
-  min-height: 100vh;
-  padding: 50px 10px;
+.contactContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-color: lightgoldenrodyellow;
-}
-.contactInfo .contacInfoContent {
-  max-width: 800px;
-  text-align: center;
-}
-.contactInfo .contacInfoContent h2 {
-  font-size: 36px;
-  font-weight: 500;
-  color: black;
-}
-.contactInfo .contacInfoContent p {
-  font-weight: 300;
-  color: black;
 }
 
-.contacInfoContainter {
-  width: 100%;
-  display: flex;
+.contact-form {
+  font-family: lobster two, cursive;
+  font-size: 1.2rem;
+  overflow: hidden;
+  width: 85%;
+  max-width: 600px;
+  background: grey;
+  position: relative;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  padding: 30px 40px;
+  border-radius: 8px;
+  text-align: center;
 }
-.contacInfoContainter .contactInfoContainerBox {
+
+.txtb {
+  border: 1px solid black;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label {
+  display: block;
+  text-align: left;
+  color: blanchedalmond;
+}
+.txtb input,
+.txtb textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  margin-top: 6px;
+}
+
+.form-btn {
+  display: inline-block;
+  background: red;
   width: 50%;
-  display: flex;
+  padding: 14px 0;
+  margin-top: 8px;
 }
 
 /*------------body------------*/
@@ -164,6 +178,7 @@ body {
 }
 
 /*------------Títulos------------*/
+/*------------Cards------------*/
 .containerCards {
   display: flex;
   justify-content: center;
@@ -180,6 +195,27 @@ body {
   margin: 10px;
   text-align: center;
 }
+.card .cardImageContainer {
+  display: flex;
+  justify-content: center;
+}
+.card .cardName {
+  font-family: Lobster, cursive;
+  letter-spacing: 3px;
+  padding: 1rem;
+  color: #000d1f;
+}
+.card .cardText {
+  font-family: Lobster two, cursive;
+  letter-spacing: 3px;
+  padding: 1rem;
+}
+.card .cardImage {
+  width: 200px;
+  height: 150px;
+  margin: 15px 15px;
+  border-radius: 15px;
+}
 
 .card:hover {
   background: linear-gradient(#e28a28, #3e6398);
@@ -188,29 +224,6 @@ body {
   transition: all 0.5s ease;
 }
 
-.cardImageContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.cardName {
-  font-family: Lobster, cursive;
-  letter-spacing: 3px;
-  padding: 1rem;
-  color: #000d1f;
-}
-
-.cardText {
-  font-family: Lobster two, cursive;
-  letter-spacing: 3px;
-  padding: 1rem;
-}
-
-.cardImage {
-  width: 200px;
-  height: 150px;
-  margin: 15px 15px;
-  border-radius: 15px;
-}
+/*------------Cards------------*/
 
 /*# sourceMappingURL=style.css.map */

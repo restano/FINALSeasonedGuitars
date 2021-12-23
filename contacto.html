@@ -74,7 +74,7 @@
                 </div>
             </section>
             <!-------------------------------------------------- Formulario -------------------------------------------------------->
-            <section class="contactInfo">
+            <!-- <section class="contactInfo">
                 <div class="contactInfoContent">
                     <h2>Póngase en contacto con nosotros</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, quod.</p>
@@ -140,6 +140,72 @@
                     </div>
                 </div>
 
+            </section> -->
+
+            <section class="contactContainer">
+
+                <div class="contactInfoContainer">
+
+                    <div class="contactInfoContainerBox">
+                        <div class="contactIcon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contactInfoContainerText">
+                            <h3>Dirección</h3>
+                            <p>Avenida Santa Fe 3069</p>
+                        </div>
+                    </div>
+
+                    <div class="contactInfoContainerBox">
+                        <div class="contactIcon"><i class="fas fa-phone"></i></div>
+                        <div class="contactInfoContainerText">
+                            <h3>Teléfono</h3>
+                            <p>155-823-7183</p>
+                        </div>
+                    </div>
+
+                    <div class="contactInfoContainerBox">
+                        <div class="contactIcon"><i class="far fa-envelope"></i></div>
+                        <div class="contactInfoContainerText">
+                            <h3>E-mail</h3>
+                            <p>contacto@seasonedguitars.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact-form">
+                    <h1>Contact Us</h1>
+                    <div class="txtb">
+                        <label for="Full Name">Nombre</label>
+                        <input type="text" name="" id="" placeholder="Ingrese su nombre" required>
+                    </div>
+
+                    <div class="txtb">
+                        <label for="Full Name">E-mail</label>
+                        <input type="email" name="" id="" placeholder="Ingrese su e-mail" required>
+                    </div>
+
+                    <div class="txtb">
+                        <label for="">Motivo de su mensaje </label>
+                        <select name="motivo" id="motivo" required>
+                            <option value="0">Elija una opción</option>
+                            <option value="1">Comprar un instrumento</option>
+                            <option value="2">Vender un instrumento</option>
+                            <option value="3">Permutar un instrumento</option>
+                            <option value="4">Otro motivo</option>
+                        </select>
+
+
+
+                    </div>
+
+                    <label for="mensaje">Escriba su mensaje:</label>
+                    <textarea name="mensaje" class="txtb" id="mensaje" cols="40" rows="5"
+                        placeholder="Escriba aquí su mensaje" required></textarea>
+
+                    <input class="form-btn" type="submit" value="Enviar" />
+                    <input class="form-btn" type="reset" value="Borrar" />
+
+                    <label for="newsletter">Quisiera recibir todas las nuevas ofertas semanalmente</label><input
+                        type="radio" name="newsletter" id="newsletter" />
+                </form>
             </section>
             <!-------------------------------------------------- Formulario -------------------------------------------------------->
         </main>

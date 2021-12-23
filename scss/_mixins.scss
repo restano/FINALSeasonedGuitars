@@ -1,0 +1,35 @@
+@mixin cardsOutline {
+
+    background: linear-gradient(#000d1f, rgb(223, 212, 212));
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+
+    .cardImageContainer {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cardName {
+        font-family: Lobster, cursive;
+        letter-spacing: 3px;
+        padding: 1rem;
+        color: #000d1f;
+    }
+
+    .cardText {
+        font-family: Lobster two, cursive;
+        letter-spacing: 3px;
+        padding: 1rem;
+    }
+
+    .cardImage {
+        width: 200px;
+        height: 150px;
+        margin: 15px 15px;
+        border-radius: 15px;
+    }
+
+}
