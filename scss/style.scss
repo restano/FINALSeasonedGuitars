@@ -62,7 +62,7 @@ body {
 }
 
 .card:hover {
-    background: linear-gradient(#e28a28, #3e6398);
+    background: linear-gradient($color_primario, $color_secundario);
     color: white;
     transform: scale(1.04);
     transition: all 0.5s ease;

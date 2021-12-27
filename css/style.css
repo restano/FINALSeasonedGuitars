@@ -103,17 +103,24 @@ a:hover i {
   overflow: hidden;
   width: 85%;
   max-width: 600px;
-  background: grey;
+  background: #000d1f69;
   position: relative;
   justify-content: center;
   align-items: center;
   padding: 30px 40px;
   border-radius: 8px;
   text-align: center;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  color: blanchedalmond;
 }
 
 .txtb {
-  border: 1px solid black;
+  border: 3px solid #e28a28;
   margin: 8px 0;
   padding: 12px 18px;
   border-radius: 8px;
@@ -125,6 +132,7 @@ a:hover i {
 }
 .txtb input,
 .txtb textarea {
+  background: #e28a28;
   width: 100%;
   border: none;
   background: none;
@@ -134,7 +142,7 @@ a:hover i {
 
 .form-btn {
   display: inline-block;
-  background: red;
+  background: #e28a28;
   width: 50%;
   padding: 14px 0;
   margin-top: 8px;
@@ -191,9 +199,10 @@ body {
 .card {
   background: linear-gradient(#000d1f, #dfd4d4);
   width: 270px;
-  height: 400px;
+  height: 450px;
   margin: 10px;
   text-align: center;
+  border-radius: 8% !important;
 }
 .card .cardImageContainer {
   display: flex;
