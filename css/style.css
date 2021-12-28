@@ -9,7 +9,7 @@
 
 /*------------RESET------------*/
 .navbar {
-  width: 100vw;
+  width: 100%;
 }
 
 .navbar-nav {
@@ -40,7 +40,7 @@ footer {
   bottom: 0;
   background: rgba(0, 0, 0, 0.452);
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 10px;
   color: white;
 }
@@ -85,7 +85,7 @@ a:hover i {
 
 .footerBottomInfo {
   background: rgba(0, 0, 0, 0.671);
-  width: 100vw;
+  width: 100%;
   padding: 10px 0;
   text-align: center;
   font-family: "lobster", cursive;
@@ -186,15 +186,13 @@ body {
 /*------------body------------*/
 /*------------Títulos------------*/
 .pageIntroduction {
-  width: 100vw;
+  width: 100%;
 }
 
 .pageTitle {
   font-family: Lobster, cursive;
   font-size: 40px;
-}
-
-.pageTitle {
+  margin-bottom: 0;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.335);
   color: blanchedalmond;
@@ -207,6 +205,7 @@ body {
   color: #dbc4a1;
   letter-spacing: 2px;
   font-size: 20px;
+  padding: 15px 15px;
 }
 
 /*------------Títulos------------*/
@@ -258,5 +257,26 @@ body {
 }
 
 /*------------Cards------------*/
+/*------------404NotFound------------*/
+.notFoundCont {
+  display: flex;
+  font-family: lobster two, cursive;
+  font-weight: 600;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.notFoundCont a {
+  text-decoration: none;
+  color: #dbc4a1;
+}
+
+.notFoundImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------------404NotFound------------*/
 
 /*# sourceMappingURL=style.css.map */
